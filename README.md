@@ -22,5 +22,5 @@ Path tracing with different materials<br/><br/>
 
 ### How to build
 ```shell
-  cmake -H./ -B./build -DBUILD_ALL=1 && cmake --build build
+  cmake -H./ -B./build -DBUILD_ALL=1 -DCMAKE_BUILD_TYPE=Release && cmake --build build
 ```
