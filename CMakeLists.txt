@@ -9,6 +9,15 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/lib)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}/bin)
 
 add_subdirectory(goya)
-add_subdirectory(lab1)
-add_subdirectory(lab2)
-add_subdirectory(lab3)
+
+if (LAB1 OR BUILD_ALL)
+  add_subdirectory(lab1)
+endif()
+
+if (LAB2 OR BUILD_ALL)
+  add_subdirectory(lab2)
+endif()
+
+if (LAB3 OR BUILD_ALL)
+  add_subdirectory(lab3)
+endif()
