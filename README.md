@@ -9,7 +9,7 @@ B-Spline based animation expanded with a gravity sensitive particle system
 ![lab2](./misc/lab2.png)
 
 ## Lab3
-Path tracing with different materials
+Path tracing with different materials<br/><br/>
 ![lab3](./misc/lab3.png)
 
 ### Dependencies
